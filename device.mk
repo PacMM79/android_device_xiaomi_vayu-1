@@ -186,7 +186,8 @@ PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 # DeviceSettings
 PRODUCT_PACKAGES += \
     XiaomiParts \
-    NotchBarKillerVayu
+    NotchBarKillerVayu \
+    NoCutoutOverlay
 
 # Display
 PRODUCT_PACKAGES += \
