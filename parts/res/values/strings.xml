@@ -70,6 +70,9 @@
     <string name="dirac_preset_dance">Dance</string>
     <string name="dirac_preset_metal">Metal</string>
 
+    <!-- Dirac QS tile title -->
+    <string name="dirac_qs_tile_title">Dirac sound</string>
+
     <!-- Touch Control Settings -->
     <string name="touch_control_title">Touch Control</string>
     <string name="touch_game_mode_title">Enable game mode</string>
