@@ -185,7 +185,8 @@ PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 
 # DeviceSettings
 PRODUCT_PACKAGES += \
-    XiaomiParts
+    XiaomiParts \
+    NotchBarKillerVayu
 
 # Display
 PRODUCT_PACKAGES += \
