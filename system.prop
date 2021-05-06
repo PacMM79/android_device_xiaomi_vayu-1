@@ -50,6 +50,9 @@ ro.vendor.qti.core_ctl_min_cpu=2
 # Radio
 ro.telephony.default_network=33,22
 
+# Memory optimizations
+ro.vendor.qti.sys.fw.bservice_enable=true
+
 # Netmgr
 persist.vendor.data.iwlan.enable=true
 persist.vendor.data.mode=concurrent
