@@ -701,6 +701,11 @@
         <item>0</item> <!-- COLOR_MODE_DEFAULT    -->
     </integer-array>
 
+    <!-- Control whether Night display is available. This should only be enabled on devices
+    that have a HWC implementation that can apply the matrix passed to setColorTransform
+    without impacting power, performance, and app compatibility (e.g. protected content). -->
+    <bool name="config_nightDisplayAvailable">false</bool>
+
     <!-- List of biometric sensors on the device, in decreasing strength. Consumed by AuthService
          when registering authenticators with BiometricService. Format must be ID:Modality:Strength,
          where: IDs are unique per device, Modality as defined in BiometricAuthenticator.java,
