@@ -46,7 +46,7 @@
     <string name="device_power_save_refresh_rate">Frecuencia de actualización del ahorro de batería</string>
     <string name="device_power_save_refresh_rate_switch">Baja la frecuencia de actualización automáticamente cuando el ahorro de batería está activo</string>
     <string name="msg_device_need_restart">Reinicie el dispositivo para que esto surta efecto.</string>
-    <string name="refresh_rate_tile_title">Frecuencia de actualización</string>
+    <string name="refresh_rate_tile_title">Tasa de refresco</string>
     <string name="refresh_rate_tile_disabled">Ahorro de batería habilitado</string>
 
     <!-- Clear Speaker -->
@@ -62,7 +62,7 @@
     <string name="dirac_hifi_enable_title">Habilitar Hi-fi</string>
     <string name="dirac_hifi_title">Hi-Fi</string>
     <string name="dirac_hifi_summary">Aumenta la calidad del audio disminuyendo el ruido y la distorsión</string>
-    <string name="dirac_qs_tile_title">Potenciador de sonido</string>
+    <string name="dirac_qs_tile_title">Mi Sound Enhancer</string>
 
     <!-- Dirac settings: Headset types -->
     <string name="dirac_headset_default">Predeterminado</string>
