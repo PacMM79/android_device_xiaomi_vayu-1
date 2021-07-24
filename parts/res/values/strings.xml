@@ -85,4 +85,8 @@
     <string name="touch_sensitivity_summary">Control touch sensitivity for repeated taps</string>
     <string name="touch_resistant_title">Touch-resistant area</string>
     <string name="touch_resistant_summary">Reduce touch sensitivity near the edges to avoid triggering touch controls</string>
+    <string name="device_power_save_refresh_rate">Battery saver refresh rate</string>
+    <string name="device_power_save_refresh_rate_switch">Automatically lower refresh rate when battery saver is active</string>
+    <string name="refresh_rate_tile_title">Refresh Rate</string>
+    <string name="refresh_rate_tile_disabled">Battery saver enabled</string>
 </resources>

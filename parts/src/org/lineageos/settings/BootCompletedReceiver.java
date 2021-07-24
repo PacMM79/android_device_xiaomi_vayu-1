@@ -21,9 +21,13 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
+import android.content.IntentFilter;
+import android.os.PowerManager;
 
+import org.lineageos.settings.PowerSaveModeChangeReceiver;
 import org.lineageos.settings.dirac.DiracUtils;
 import org.lineageos.settings.thermal.ThermalUtils;
+import org.lineageos.settings.utils.RefreshRateUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 
@@ -35,5 +39,11 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         if (DEBUG) Log.d(TAG, "Received boot completed intent");
         DiracUtils.initialize(context);
         ThermalUtils.startService(context);
+        // Refresh rate
+        RefreshRateUtils.setFPS(RefreshRateUtils.getRefreshRate(context));
+        IntentFilter filter = new IntentFilter();
+        PowerSaveModeChangeReceiver receiver = new PowerSaveModeChangeReceiver();
+        filter.addAction(PowerManager.ACTION_POWER_SAVE_MODE_CHANGED);
+        context.getApplicationContext().registerReceiver(receiver, filter);
     }
 }
