@@ -737,4 +737,10 @@
         <item>0</item> <!-- COLOR_MODE_DEFAULT    -->
         <item>9</item> <!-- COLOR_MODE_DISPLAY_P3 -->
     </integer-array>
+
+    <!-- Default value for proximity check on screen wake
+     NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
+    <bool name="config_proximityCheckOnWake">true</bool>
+    <integer name="config_proximityCheckTimeout">100</integer>
+    <bool name="config_proximityCheckOnWakeEnabledByDefault">false</bool>
 </resources>
