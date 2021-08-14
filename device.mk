@@ -220,7 +220,8 @@ PRODUCT_PACKAGES += \
 
 # DeviceSettings
 PRODUCT_PACKAGES += \
-    XiaomiParts
+    XiaomiParts \
+    NotchBarKiller
 
 # Fingerprint
 PRODUCT_PACKAGES += \
