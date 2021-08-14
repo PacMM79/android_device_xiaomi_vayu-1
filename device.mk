@@ -115,6 +115,9 @@ PRODUCT_PACKAGES += \
     libvisualizer \
     libvolumelistener
 
+# AudioFX Exclude
+TARGET_EXCLUDES_AUDIOFX := true
+
 # Audio configs
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
