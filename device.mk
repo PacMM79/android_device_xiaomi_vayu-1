@@ -359,6 +359,10 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
 
+# Recorder
+PRODUCT_PACKAGES += \
+    Recorder
+
 # RIL
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
