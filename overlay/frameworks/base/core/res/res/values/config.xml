@@ -746,4 +746,7 @@
 
     <!-- If this is true, the screen will fade off. -->
     <bool name="config_animateScreenLights">false</bool>
+
+    <!-- Whether to show settings for hiding notch fill -->
+    <bool name="config_showHideNotchSettings">true</bool>
 </resources>
