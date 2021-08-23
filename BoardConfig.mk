@@ -114,6 +114,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CONFIG := vayu_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/vayu
+KERNEL_LD := LD=ld.lld
 
 # NFC
 TARGET_USES_NQ_NFC := true
