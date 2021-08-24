@@ -46,14 +46,25 @@
             </intent-filter>
         </receiver>
 
-        <service android:name=".doze.DozeService"
-                 android:permission="XiaomiDozeService">
-        </service>
+        <receiver android:name=".PowerSaveModeChangeReceiver">
+            <intent-filter>
+                <action android:name="android.os.action.POWER_SAVE_MODE_CHANGED" />
+            </intent-filter>
+        </receiver>
 
         <activity
-            android:name=".doze.DozeSettingsActivity"
-            android:label="@string/ambient_display_title"
+            android:name=".DevicePreferenceActivity"
+            android:label="@string/device_specific_settings_title"
             android:theme="@style/Theme.Main">
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.display" />
+            <meta-data
+                android:name="com.android.settings.summary"
+                android:resource="@string/device_specific_settings_summary" />
         </activity>
 
         <receiver android:name=".PowerSaveModeChangeReceiver">
