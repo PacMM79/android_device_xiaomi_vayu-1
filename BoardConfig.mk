@@ -85,7 +85,9 @@ GNSS_HIDL_VERSION := 2.1
 LOC_HIDL_VERSION := 4.0
 
 # HIDL
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/framework_compatibility_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
+    $(DEVICE_PATH)/framework_compatibility_matrix.xml \
+    vendor/lineage/config/device_framework_matrix.xml
 DEVICE_MATRIX_FILE += $(DEVICE_PATH)/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 ODM_MANIFEST_SKUS += vayu
