@@ -93,12 +93,6 @@
             </intent-filter>
         </service>
 
-        <receiver android:name=".PowerSaveModeChangeReceiver">
-            <intent-filter>
-                <action android:name="android.os.action.POWER_SAVE_MODE_CHANGED" />
-            </intent-filter>
-        </receiver>
-
         <activity
             android:name=".speaker.ClearSpeakerActivity"
             android:label="@string/clear_speaker_title"

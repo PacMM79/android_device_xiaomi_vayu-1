@@ -26,6 +26,17 @@
     <string name="thermal_gaming">Gaming</string>
     <string name="thermal_streaming">Streaming</string>
 
+    <!-- Refresh rate -->
+    <string name="device_specific_settings_title">Dynamic Refresh Rate</string>
+    <string name="device_specific_settings_summary">Refresh rate configuration</string>
+    <string name="device_refresh_rate">DISPLAY REFRESH RATE</string>
+    <string name="device_min_refresh_rate">Minimum refresh rate</string>
+    <string name="device_power_save_refresh_rate">Battery saver refresh rate</string>
+    <string name="device_power_save_refresh_rate_switch">Automatically lower refresh rate when battery saver is active</string>
+    <string name="msg_device_need_restart">Please restart device for this to take effect.</string>
+    <string name="refresh_rate_tile_title">Refresh Rate</string>
+    <string name="refresh_rate_tile_disabled">Battery saver enabled</string>
+
     <!-- Dirac settings -->
     <string name="dirac_title">Dirac sound enhancer</string>
     <string name="dirac_summary">Optimize audio quality</string>
@@ -85,8 +96,4 @@
     <string name="touch_sensitivity_summary">Control touch sensitivity for repeated taps</string>
     <string name="touch_resistant_title">Touch-resistant area</string>
     <string name="touch_resistant_summary">Reduce touch sensitivity near the edges to avoid triggering touch controls</string>
-    <string name="device_power_save_refresh_rate">Battery saver refresh rate</string>
-    <string name="device_power_save_refresh_rate_switch">Automatically lower refresh rate when battery saver is active</string>
-    <string name="refresh_rate_tile_title">Refresh Rate</string>
-    <string name="refresh_rate_tile_disabled">Battery saver enabled</string>
 </resources>
